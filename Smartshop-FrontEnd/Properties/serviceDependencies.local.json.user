@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-04-04T18:26:53.4517769Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-04-04T18:26:54.6096797Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "33a6bd30-64ba-4b3d-945d-d257c3c63b97"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "smartshop_group"
+    }
+  }
+}

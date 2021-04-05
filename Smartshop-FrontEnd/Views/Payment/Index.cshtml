@@ -1,0 +1,17 @@
+﻿<head>
+    <link rel="stylesheet" type="text/css" href="~/css/payment.css">
+</head>
+
+<div class='container'>
+    <div class="card mx-auto col-md-5 col-8 mt-3 p-0">
+        <img class='mx-auto pic' src="~/resources/35046ea1-49e0-4a6f-af00-d4c02e327a86.jfif" />
+        <div class="card-title d-flex px-4">
+            <p class="item text-muted">Total a pagar</p>
+            <p>$ @ViewBag.totalPrice</p>
+        </div>
+    </div>
+</div>
+
+<div>
+    <button class="btn d-flex mx-auto" onclick="location.href='@Url.Action("Bill", "Payment")'"><b>Generar Factura</b></button>
+</div>

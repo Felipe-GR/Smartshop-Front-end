@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Smartshop_FrontEnd.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <meta http-equiv="refresh" content="5" />
+    <link rel="stylesheet" type="text/css" href="~/css/cart.css">
+</head>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="1">Id</th>
+            <th colspan="1">Nombre del Producto</th>
+            <th colspan="1">Precio del Producto</th>
+            <th colspan="1"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CardId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductPrice)
+                </td>
+                <td>
+                    <i class="material-icons button delete">delete</i>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <button class="btn d-flex mx-auto" onclick="location.href='@Url.Action("Index", "Payment")'"><b>Generar un código QR</b></button>
+</div>

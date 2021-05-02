@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Smartshop_FrontEnd.Models;
 using System;
 using System.Threading.Tasks;
+using System.Net;
+using System.Net.Mail;
 
 namespace Smartshop_FrontEnd.Controllers
 {
@@ -75,6 +77,31 @@ namespace Smartshop_FrontEnd.Controllers
         public double TotalPrice(double price, double vatPrice)
         {
             return (price + vatPrice);
+        }
+
+        public void SendMail()
+        {
+            MailAddress to = new MailAddress("trabajosupc0@gmail.com");
+            MailAddress from = new MailAddress("luisguerron@hotmail.com");
+
+            MailMessage message = new MailMessage(from, to);
+            message.Subject = "Good morning, Elizabeth";
+            message.Body = "Elizabeth, Long time no talk. Would you be up for lunch in Soho on Monday? I'm paying.;";
+
+            SmtpClient client = new SmtpClient("smtp.gmail.com", 587)
+            {
+                Credentials = new NetworkCredential("trabajosupc0@gmail.com", "Trabajos123*"),
+                EnableSsl = true
+            };
+
+            try
+            {
+                client.Send(message);
+            }
+            catch (SmtpException ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
         }
     }
 }

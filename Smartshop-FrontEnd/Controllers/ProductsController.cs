@@ -4,7 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Smartshop_FrontEnd.Models;
 
 namespace Smartshop_FrontEnd.Controllers
@@ -12,15 +14,25 @@ namespace Smartshop_FrontEnd.Controllers
     public class ProductsController : Controller
     {
         private readonly SmartshopContext _context;
+        private string connection = "";
 
-        public ProductsController(SmartshopContext context)
+        private int cantidadProductoUno;
+        private int cantidadProductoDos;
+
+        public ProductsController(SmartshopContext context, IConfiguration configuration)
         {
             _context = context;
+            connection = configuration.GetConnectionString("Database");
         }
 
         // GET: Products
         public async Task<IActionResult> Index()
         {
+            GetProducts();
+
+            ViewBag.uno = cantidadProductoUno;
+            ViewBag.dos = cantidadProductoDos;
+
             return View(await _context.Products.ToListAsync());
         }
 
@@ -147,6 +159,30 @@ namespace Smartshop_FrontEnd.Controllers
         private bool ProductExists(int id)
         {
             return _context.Products.Any(e => e.Id == id);
+        }
+
+        public void GetProducts()
+        {
+            string query = "SELECT [CardId], COUNT(*) FROM [dbo].[Product] GROUP BY [CardId], [ProductPrice];";
+
+            using (SqlConnection conn = new SqlConnection(connection))
+            {
+
+                conn.Open();
+
+                using (SqlCommand command = new SqlCommand(query, conn))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            if(reader.GetString(0).Equals("C7E72C1B")) { cantidadProductoUno = reader.GetInt32(1); }
+                            if (reader.GetString(0).Equals("17430352")) { cantidadProductoDos = reader.GetInt32(1); }
+                        }
+                    }
+                }
+            }
+
         }
     }
 }

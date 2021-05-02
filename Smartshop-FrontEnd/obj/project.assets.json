@@ -7447,11 +7447,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LuisG\\source\\repos\\Smartshop-FrontEnd\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop-Front-end\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
       "projectName": "Smartshop-FrontEnd",
-      "projectPath": "C:\\Users\\LuisG\\source\\repos\\Smartshop-FrontEnd\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
+      "projectPath": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop-Front-end\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
       "packagesPath": "C:\\Users\\LuisG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LuisG\\source\\repos\\Smartshop-FrontEnd\\Smartshop-FrontEnd\\obj\\",
+      "outputPath": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop-Front-end\\Smartshop-FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LuisG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7517,7 +7517,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

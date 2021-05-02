@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ya63X+bNU8wdJXbXDAuxOJb6U1v1IROdLT+aHqQMDkCQiknqHWu675jER5EcaCb5Hp2T5jscohqWY1/Wf2vtNQ==",
+  "dgSpecHash": "4wgFOugeRL4O0KNoNMPYkR9lP3LBFRM27J3jRqVMQF5i2zPVqYTzrfYrafQkcNP0pRW6GDhnY6Dv9XMOAqlHaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LuisG\\source\\repos\\Smartshop-FrontEnd\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
+  "projectFilePath": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop-Front-end\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LuisG\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
     "C:\\Users\\LuisG\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

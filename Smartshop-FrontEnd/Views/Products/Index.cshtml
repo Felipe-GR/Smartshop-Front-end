@@ -15,24 +15,41 @@
             <th colspan="1">Id</th>
             <th colspan="1">Nombre del Producto</th>
             <th colspan="1">Precio del Producto</th>
-            <th colspan="1"></th>
+            <th colspan="1">Cantidad</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @if (@ViewBag.uno != 0)
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.CardId)
+                    C7E72C1B
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.ProductName)
+                    Queso
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.ProductPrice)
+                    2000
                 </td>
                 <td>
-                    <i class="material-icons button delete">delete</i>
+                    @ViewBag.uno
+                </td>
+            </tr>
+        }
+        @if (@ViewBag.dos != 0)
+        {
+            <tr>
+                <td>
+                    17430352
+                </td>
+                <td>
+                    Pollo
+                </td>
+                <td>
+                    15000
+                </td>
+                <td>
+                    @ViewBag.dos
                 </td>
             </tr>
         }

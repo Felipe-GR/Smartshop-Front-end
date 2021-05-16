@@ -12,9 +12,12 @@
     </div>
 </div>
 
-<div>
-    <button class="btn d-flex mx-auto" onclick="location.href='@Url.Action("SendMail", "Products")'"><b>Generar Factura</b></button>
-</div>
+<form method="post" asp-action="SendMail">
+    <div>
+        <button class="btn d-flex mx-auto" onclick="location.href='@Url.Action("Bill", "Payment")'"><b>Generar Factura</b></button>
+    </div>
+</form>
+
 
 <div>
     <button class="btn d-flex mx-auto" onclick="location.href='@Url.Action("Create", "Shoppers")'"><b>Cancelar Compra</b></button>

@@ -146,7 +146,7 @@ namespace Smartshop_FrontEnd.Controllers
         }
 
         // POST: Products/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpDelete, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

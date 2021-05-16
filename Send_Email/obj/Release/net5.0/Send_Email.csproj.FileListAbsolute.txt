@@ -1,0 +1,16 @@
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\bin\Release\net5.0\Send_Email.exe
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\bin\Release\net5.0\Send_Email.deps.json
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\bin\Release\net5.0\Send_Email.runtimeconfig.json
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\bin\Release\net5.0\Send_Email.runtimeconfig.dev.json
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\bin\Release\net5.0\Send_Email.dll
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\bin\Release\net5.0\ref\Send_Email.dll
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\bin\Release\net5.0\Send_Email.pdb
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\obj\Release\net5.0\Send_Email.csprojAssemblyReference.cache
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\obj\Release\net5.0\Send_Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\obj\Release\net5.0\Send_Email.AssemblyInfoInputs.cache
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\obj\Release\net5.0\Send_Email.AssemblyInfo.cs
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\obj\Release\net5.0\Send_Email.csproj.CoreCompileInputs.cache
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\obj\Release\net5.0\Send_Email.dll
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\obj\Release\net5.0\ref\Send_Email.dll
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\obj\Release\net5.0\Send_Email.pdb
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Send_Email\obj\Release\net5.0\Send_Email.genruntimeconfig.cache

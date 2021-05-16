@@ -20,7 +20,7 @@
                             </td>
 
                             <td>
-                                Invoice #: 123<br />
+                                Invoice #: 1<br />
                                 Created: Today<br />
                                 Due: Today
                             </td>
@@ -51,31 +51,35 @@
 
             <tr class="heading">
                 <td>Item</td>
-
+                <td>Quantity</td>
                 <td>Price</td>
             </tr>
-
-            @foreach (var item in Model)
-            {
-                <tr class="item">
-                    <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
-                    <td>@Html.DisplayFor(modelItem => item.ProductPrice)</td>
-                </tr>
-            }
-
+            <tr class="item">
+                <td>Pollo</td>
+                <td>Cantidad</td>
+                <td>15000</td>
+            </tr>
+            <tr class="item">
+                <td>Queso</td>
+                <td>Cantidad</td>
+                <td>2000</td>
+            </tr>
             <tr class="total">
                 <td></td>
-                <td>Subtotal: $@ViewBag.price</td>
+                <td></td>
+                <td>Subtotal: $10.000</td>
             </tr>
 
             <tr class="total">
                 <td></td>
-                <td>IVA: $@ViewBag.vat</td>
+                <td></td>
+                <td>IVA: $10000</td>
             </tr>
 
             <tr class="total">
                 <td></td>
-                <td>total: $@ViewBag.totalPrice</td>
+                <td></td>
+                <td>total: $10000</td>
             </tr>
         </table>
 

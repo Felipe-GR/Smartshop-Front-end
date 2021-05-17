@@ -20,7 +20,7 @@
 <br>
 <div class="login">
     <br>
-    <input type="text" id="first_email" placeholder="correo electronico" name="first_email"><br>
+    <input type="text" id="first_email" asp-for="Email" placeholder="correo electronico" name="first_email"><br>
     <br>
     <input type="text" id="second_email" placeholder="verifique su correo" name="second_email"><br>
     <input type="submit" value="Ingresar" onclick="compareElements()" />
@@ -40,16 +40,14 @@
 
         function compareElements() {
             if (document.getElementById('first_email').value === document.getElementById('second_email').value) {
-
+                // Create the session variable
                 sessionStorage.setItem('email', document.getElementById('first_email').value);
 
+                //Define the route path
                 var baseUrl = "@Url.Action("Save","Shoppers")";
 
-                // Now append your query string variables to baseUrl
-                // Ex : baseUrl=baseUrl+"?searchString=testing";
-
+                // Redirect to path
                 window.location.href = baseUrl;
-
             }
         }
     </script>

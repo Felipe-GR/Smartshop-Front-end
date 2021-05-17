@@ -1,8 +1,8 @@
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\Controllers\PaymentController.cs
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\Smartshop-FrontEnd.exe
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\bill.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\cart.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\payment.css
-C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\save.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\shopper.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\site.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\favicon.ico
@@ -43,6 +43,7 @@ C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\resources\35046ea1-49e0-4a6f-af00-d4c02e327a86.jfif
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\save.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\Smartshop-FrontEnd.dll
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\Smartshop-FrontEnd.runtimeconfig.json
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\Smartshop-FrontEnd.pdb

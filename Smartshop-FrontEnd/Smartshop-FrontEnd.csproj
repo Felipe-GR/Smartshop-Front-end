@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\css\save.css" />
+    <None Include="wwwroot\css\save.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="wwwroot\css\shopper.css" />
   </ItemGroup>
 
@@ -23,6 +25,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Controllers\PaymentController.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties properties_4servicedependencies_4smartshop-frontend20210404192806_x0020_-_x0020_web_x0020_deploy_4profile_1arm_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

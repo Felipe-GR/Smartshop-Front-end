@@ -299,3 +299,5 @@ C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\Smartshop-FrontEnd.pdb
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\Smartshop-FrontEnd.genruntimeconfig.cache
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\Razor\Views\Shoppers\Save.cshtml.g.cs
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\bin\Release\net5.0\wwwroot\css\save.css
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\bin\Release\net5.0\Controllers\PaymentController.cs

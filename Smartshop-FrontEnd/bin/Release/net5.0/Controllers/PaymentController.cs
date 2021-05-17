@@ -211,7 +211,7 @@ namespace Smartshop_FrontEnd.Controllers
         [HttpPost]
         public IActionResult SendMail()
         {
-            var fromAddress = new MailAddress("demosmartshop@gmail.com", "smartshop");
+            var fromAddress = new MailAddress("demosmartshop@gmail.com", "Fast Market Cart");
             var toAddress = new MailAddress(GetLastMail(), "Cliente");
             var copyAddress = new MailAddress("trabajosupc0@gmail.com", "Fast Market Cart");
             const string fromPassword = "1234ABcD*";
@@ -219,8 +219,8 @@ namespace Smartshop_FrontEnd.Controllers
             string date = DateTime.UtcNow.ToString("MM-dd-yyyy");
             string subject = "Factura de Venta " + date;
 
-            int productUno = GetQuantity("C7E72C1B") != 0 ? GetQuantity("C7E72C1B") : 0;
-            int productDos = GetQuantity("17430352") != 0 ? GetQuantity("17430352") : 0;
+            int productUno = GetQuantity("17430352") != 0 ? GetQuantity("17430352") : 0;
+            int productDos = GetQuantity("C7E72C1B") != 0 ? GetQuantity("C7E72C1B") : 0;
 
             double price = GetPrice();
             double vat = GetVat(price);

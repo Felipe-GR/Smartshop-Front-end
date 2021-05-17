@@ -1,0 +1,38 @@
+﻿@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+
+@model Smartshop_FrontEnd.Models.Shopper
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/save.css">
+</head>
+
+<form method="post" asp-action="Create">
+    <div class="body"></div>
+    <div class="grad"></div>
+    <div class="header">
+        <div>Fast<span>Market</span></div>
+        <br />
+        <div>Cart</div>
+    </div>
+    <br>
+    <div class="login">
+        <br>
+        <input asp-for="Email" id="first_email" type="text" placeholder="correo electronico" name="email"><br>
+        <input type="submit" value="Ingresar" onclick="location.href='@Url.Action("Index", "Products")'" />
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('first_email').value = sessionStorage.getItem('email');
+        }
+    </script>
+
+}

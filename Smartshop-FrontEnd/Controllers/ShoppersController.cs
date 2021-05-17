@@ -48,6 +48,12 @@ namespace Smartshop_FrontEnd.Controllers
             return View();
         }
 
+        // GET: Shoppers/Create
+        public IActionResult Save()
+        {
+            return View();
+        }
+
         // POST: Shoppers/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

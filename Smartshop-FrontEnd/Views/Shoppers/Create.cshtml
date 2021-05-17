@@ -1,4 +1,6 @@
-﻿@model Smartshop_FrontEnd.Models.Shopper
+﻿@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+
+@model Smartshop_FrontEnd.Models.Shopper
 
 @{
     ViewData["Title"] = "Create";
@@ -8,20 +10,48 @@
     <link rel="stylesheet" type="text/css" href="~/css/shopper.css">
 </head>
 
-<form method="post" asp-action="Create">
-    <div class="body"></div>
-    <div class="grad"></div>
-    <div class="header">
-        <div>Fast<span>Market</span></div>
-    </div>
+<div class="body"></div>
+<div class="grad"></div>
+<div class="header">
+    <div>Fast<span>Market</span></div>
+    <br />
+    <div>Cart</div>
+</div>
+<br>
+<div class="login">
     <br>
-    <div class="login">
-        <br>
-        <input asp-for="Email" type="text" placeholder="correo electronico" name="email"><br>
-        <input type="submit" value="Ingresar" onclick="location.href='@Url.Action("Index", "Products")'" />
-    </div>
-</form>
+    <input type="text" id="first_email" placeholder="correo electronico" name="first_email"><br>
+    <br>
+    <input type="text" id="second_email" placeholder="verifique su correo" name="second_email"><br>
+    <input type="submit" value="Ingresar" onclick="compareElements()" />
+</div>
+
+@functions{
+    public string GetAntiXsrfRequestToken()
+    {
+        return Xsrf.GetAndStoreTokens(Context).RequestToken;
+    }
+}
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script type="text/javascript">
+
+        function compareElements() {
+            if (document.getElementById('first_email').value === document.getElementById('second_email').value) {
+
+                sessionStorage.setItem('email', document.getElementById('first_email').value);
+
+                var baseUrl = "@Url.Action("Save","Shoppers")";
+
+                // Now append your query string variables to baseUrl
+                // Ex : baseUrl=baseUrl+"?searchString=testing";
+
+                window.location.href = baseUrl;
+
+            }
+        }
+    </script>
+
 }

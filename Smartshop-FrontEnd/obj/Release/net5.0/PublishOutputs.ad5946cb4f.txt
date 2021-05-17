@@ -2,6 +2,7 @@ C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\bill.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\cart.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\payment.css
+C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\save.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\shopper.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\css\site.css
 C:\Users\LuisG\OneDrive\Documentos\GitHub\Smartshop-Front-end\Smartshop-FrontEnd\obj\Release\net5.0\PubTmp\Out\wwwroot\favicon.ico

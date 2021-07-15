@@ -2,12 +2,8 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "bootstrap/4.6.0": {
+      "bootstrap/5.0.2": {
         "type": "package",
-        "dependencies": {
-          "jQuery": "[3.0.0, 4.0.0)",
-          "popper.js": "[1.16.1, 2.0.0)"
-        },
         "contentFiles": {
           "contentFiles/any/any/wwwroot/css/bootstrap-grid.css": {
             "buildAction": "Content",
@@ -25,6 +21,26 @@
             "copyToOutput": false
           },
           "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css.map": {
             "buildAction": "Content",
             "codeLanguage": "any",
             "copyToOutput": false
@@ -49,6 +65,66 @@
             "codeLanguage": "any",
             "copyToOutput": false
           },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
           "contentFiles/any/any/wwwroot/css/bootstrap.css": {
             "buildAction": "Content",
             "codeLanguage": "any",
@@ -69,6 +145,26 @@
             "codeLanguage": "any",
             "copyToOutput": false
           },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
           "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js": {
             "buildAction": "Content",
             "codeLanguage": "any",
@@ -85,6 +181,26 @@
             "copyToOutput": false
           },
           "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js.map": {
             "buildAction": "Content",
             "codeLanguage": "any",
             "copyToOutput": false
@@ -120,8 +236,20 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "jQuery/3.0.0": {
-        "type": "package"
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.8"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
@@ -498,13 +626,13 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/5.0.6": {
+      "Microsoft.EntityFrameworkCore/5.0.8": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.6",
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.6",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.8",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.8",
           "Microsoft.Extensions.Caching.Memory": "5.0.0",
-          "Microsoft.Extensions.DependencyInjection": "5.0.1",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "Microsoft.Extensions.Logging": "5.0.0",
           "System.Collections.Immutable": "5.0.0",
           "System.ComponentModel.Annotations": "5.0.0",
@@ -517,7 +645,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/5.0.6": {
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -526,7 +654,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/5.0.6": {
+      "Microsoft.EntityFrameworkCore.Analyzers/5.0.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -535,12 +663,12 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/5.0.6": {
+      "Microsoft.EntityFrameworkCore.Design/5.0.8": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.8.26",
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.6"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.8"
         },
         "compile": {
           "lib/netstandard2.1/_._": {}
@@ -552,10 +680,10 @@
           "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/5.0.6": {
+      "Microsoft.EntityFrameworkCore.Relational/5.0.8": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.6",
+          "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
         "compile": {
@@ -565,11 +693,11 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/5.0.6": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.6"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.8"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -578,10 +706,10 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/5.0.6": {
+      "Microsoft.EntityFrameworkCore.Tools/5.0.8": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "5.0.6"
+          "Microsoft.EntityFrameworkCore.Design": "5.0.8"
         },
         "compile": {
           "lib/netstandard2.1/_._": {}
@@ -630,7 +758,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/5.0.1": {
+      "Microsoft.Extensions.DependencyInjection/5.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
@@ -963,9 +1091,6 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
-      },
-      "popper.js/1.16.1": {
-        "type": "package"
       },
       "runtime.native.System/4.3.0": {
         "type": "package",
@@ -2129,33 +2254,57 @@
     }
   },
   "libraries": {
-    "bootstrap/4.6.0": {
-      "sha512": "nGsIRcbAcBybxBeoL5H6Uax8bb+nrT+tbx3/3n1yXCWq/s+fgEvdo0BAYIq1GmbBizA2KKShyFNiJaSanonIIQ==",
+    "bootstrap/5.0.2": {
+      "sha512": "RsOWqBzgldDKxNkMIUZ+X6qqPfJhHLfMBkVoZBCFXkKmtz5ocRN2YJVmFulCGatN4ZQc/LhivNSbUKI10LGH4w==",
       "type": "package",
-      "path": "bootstrap/4.6.0",
+      "path": "bootstrap/5.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
-        "bootstrap.4.6.0.nupkg.sha512",
+        "bootstrap.5.0.2.nupkg.sha512",
         "bootstrap.nuspec",
         "bootstrap.png",
         "content/Content/bootstrap-grid.css",
         "content/Content/bootstrap-grid.css.map",
         "content/Content/bootstrap-grid.min.css",
         "content/Content/bootstrap-grid.min.css.map",
+        "content/Content/bootstrap-grid.rtl.css",
+        "content/Content/bootstrap-grid.rtl.css.map",
+        "content/Content/bootstrap-grid.rtl.min.css",
+        "content/Content/bootstrap-grid.rtl.min.css.map",
         "content/Content/bootstrap-reboot.css",
         "content/Content/bootstrap-reboot.css.map",
         "content/Content/bootstrap-reboot.min.css",
         "content/Content/bootstrap-reboot.min.css.map",
+        "content/Content/bootstrap-reboot.rtl.css",
+        "content/Content/bootstrap-reboot.rtl.css.map",
+        "content/Content/bootstrap-reboot.rtl.min.css",
+        "content/Content/bootstrap-reboot.rtl.min.css.map",
+        "content/Content/bootstrap-utilities.css",
+        "content/Content/bootstrap-utilities.css.map",
+        "content/Content/bootstrap-utilities.min.css",
+        "content/Content/bootstrap-utilities.min.css.map",
+        "content/Content/bootstrap-utilities.rtl.css",
+        "content/Content/bootstrap-utilities.rtl.css.map",
+        "content/Content/bootstrap-utilities.rtl.min.css",
+        "content/Content/bootstrap-utilities.rtl.min.css.map",
         "content/Content/bootstrap.css",
         "content/Content/bootstrap.css.map",
         "content/Content/bootstrap.min.css",
         "content/Content/bootstrap.min.css.map",
+        "content/Content/bootstrap.rtl.css",
+        "content/Content/bootstrap.rtl.css.map",
+        "content/Content/bootstrap.rtl.min.css",
+        "content/Content/bootstrap.rtl.min.css.map",
         "content/Scripts/bootstrap.bundle.js",
         "content/Scripts/bootstrap.bundle.js.map",
         "content/Scripts/bootstrap.bundle.min.js",
         "content/Scripts/bootstrap.bundle.min.js.map",
+        "content/Scripts/bootstrap.esm.js",
+        "content/Scripts/bootstrap.esm.js.map",
+        "content/Scripts/bootstrap.esm.min.js",
+        "content/Scripts/bootstrap.esm.min.js.map",
         "content/Scripts/bootstrap.js",
         "content/Scripts/bootstrap.js.map",
         "content/Scripts/bootstrap.min.js",
@@ -2164,18 +2313,42 @@
         "contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map",
         "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css",
         "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css.map",
         "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css",
         "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map",
         "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css",
         "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css.map",
         "contentFiles/any/any/wwwroot/css/bootstrap.css",
         "contentFiles/any/any/wwwroot/css/bootstrap.css.map",
         "contentFiles/any/any/wwwroot/css/bootstrap.min.css",
         "contentFiles/any/any/wwwroot/css/bootstrap.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css.map",
         "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js",
         "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map",
         "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js",
         "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.esm.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.esm.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js.map",
         "contentFiles/any/any/wwwroot/js/bootstrap.js",
         "contentFiles/any/any/wwwroot/js/bootstrap.js.map",
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js",
@@ -2198,27 +2371,19 @@
         "logo.png"
       ]
     },
-    "jQuery/3.0.0": {
-      "sha512": "xFfntV19HzCtKdJWOp/XT9PUY3SslokTDDLFJZdBug36j1XVhw1+vPQ/n7Gd5y+jdpesn5B1m1yn1qIUq57jlA==",
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.8": {
+      "sha512": "W2acRak3euTdfWOZq9X5a3KdgBJ0G+nHtAO0r9u/mfYKVYKXwvpGb+pXzDdc8iTWMlT0DHpgKGy+XhSeAWvNNA==",
       "type": "package",
-      "path": "jquery/3.0.0",
-      "hasTools": true,
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/5.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Content/Scripts/jquery-3.0.0-vsdoc.js",
-        "Content/Scripts/jquery-3.0.0.js",
-        "Content/Scripts/jquery-3.0.0.min.js",
-        "Content/Scripts/jquery-3.0.0.min.map",
-        "Content/Scripts/jquery-3.0.0.slim.js",
-        "Content/Scripts/jquery-3.0.0.slim.min.js",
-        "Content/Scripts/jquery-3.0.0.slim.min.map",
-        "Tools/common.ps1",
-        "Tools/install.ps1",
-        "Tools/jquery-3.0.0.intellisense.js",
-        "Tools/uninstall.ps1",
-        "jquery.3.0.0.nupkg.sha512",
-        "jquery.nuspec"
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -2744,52 +2909,52 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb"
       ]
     },
-    "Microsoft.EntityFrameworkCore/5.0.6": {
-      "sha512": "uEqAprroH469aPCZm4iPA1oD8/YDqEQT9QjINkq4HWFA2kRh7Dm2lXX4uZ4MAzpcxoWCqKni2KbLqG8I0KnGqw==",
+    "Microsoft.EntityFrameworkCore/5.0.8": {
+      "sha512": "UzHZDWma5jJaDMBGnfsBC1h0+1bPzAZmEGnmEMy9xdn4UkO9yvrG7m0deRazvU98Ezoa9pqi4Bsp07WR8p8HUA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/5.0.6",
+      "path": "microsoft.entityframeworkcore/5.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.5.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/5.0.6": {
-      "sha512": "mZCwrwaiE3dSfJZZLihPueGJ2L5/vPU8VPpz21lErYIMmtZmxfSqocXe65bLlwMQ6EO/OcW7P+tvHWPsrAzMTg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/5.0.8": {
+      "sha512": "twdaHC6Jy3Gzcr7qHBvgQi0q1mWJVJtrqkFcw21IFE/+1KkMTGOamV88vgPZY1NBZqnbdv1K83otDsUg9EO5ow==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/5.0.6",
+      "path": "microsoft.entityframeworkcore.abstractions/5.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.5.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/5.0.6": {
-      "sha512": "PhcaRr/5NgTVjm43ITSPSYQGYCUkyuBV1gEDipLnDZI+VsYwyr2HH8pHXDUaY1E6dkZoiWNRt+XNMAsK3qDIKQ==",
+    "Microsoft.EntityFrameworkCore.Analyzers/5.0.8": {
+      "sha512": "iXH3FyGochg9ZePG1VQwVT3YGsvhn8jmQkhi7iIKfa16xgSevpa9jhKDflFSMZ9xI9xWAsOAiG+H+pG6Jsw/3w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/5.0.6",
+      "path": "microsoft.entityframeworkcore.analyzers/5.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.5.0.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.5.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/5.0.6": {
-      "sha512": "2hjMovtUx3zvMMJDNjFFtYbiYRg7SNAyRe3JQzCYy7kXfADcyr7tuf9meq0lxGZBf8qvilYcDaBj5M+iq90krQ==",
+    "Microsoft.EntityFrameworkCore.Design/5.0.8": {
+      "sha512": "GTAQ6Lr5XK5YV3/1AF/jLbnrkAsIhX8IhiYSnROHVIsCjij77chKdTl7JSFEe65QIJ1UKutGyKp15jGqLcBV7g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/5.0.6",
+      "path": "microsoft.entityframeworkcore.design/5.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2797,49 +2962,49 @@
         "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.5.0.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.5.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/5.0.6": {
-      "sha512": "zzmO/cAcvsFeU3Ey6643GiLl4hCgGpWdcCW8LHsHP35zmfTirnjm2PrB+wf1wYQlPNyGT9+uypbVSoOopg58Mg==",
+    "Microsoft.EntityFrameworkCore.Relational/5.0.8": {
+      "sha512": "TGXfQdij08bjxpXNzC/LxOf1Q18eLdACZZpWUCHcVKssk6750ElE0MhX3eBmvRnSof1FrjsWJkYEchV6PSjGOg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/5.0.6",
+      "path": "microsoft.entityframeworkcore.relational/5.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.5.0.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.5.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/5.0.6": {
-      "sha512": "OQFZB8hOaaU+VO62MHdkAVkPbfH+Yx8Kp+Bp+LKnmX7HxDGe/8DEOJSoHKAE8gFUTaSnJ5/OvBKNxXefeAyT0g==",
+    "Microsoft.EntityFrameworkCore.SqlServer/5.0.8": {
+      "sha512": "kQbUHiJDqIm+LdY7SS/fm/W/eHCXUJjAJhMvTzSGtPuFGBN4S+RKfs8FiXXk0WKWxmDjXo4Dck4WDJLCXdv/Sw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/5.0.6",
+      "path": "microsoft.entityframeworkcore.sqlserver/5.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.5.0.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.5.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/5.0.6": {
-      "sha512": "eh3jspEKaDu/q3+YqdZ6V1Htwjn/eMp5rT9KGHFw4GEKUIg7CVNzGtZ57ZV5HwBus4A/6OcGUGa6/J72UU8ZUg==",
+    "Microsoft.EntityFrameworkCore.Tools/5.0.8": {
+      "sha512": "gINPFTfwmYXSz2Chn4eAxoC5AJmM0qtSMPtU0evLqLoIZ8E4jAxrBTwRIt2p/42Fczqav/V3tR6yXlq4tAAGiQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/5.0.6",
+      "path": "microsoft.entityframeworkcore.tools/5.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/_._",
-        "microsoft.entityframeworkcore.tools.5.0.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.5.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -2913,10 +3078,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/5.0.1": {
-      "sha512": "//mDNrYeiJ0eh/awFhDFJQzkRVra/njU5Y4fyK7X29g5HScrzbUkKOKlyTtygthcGFt4zNC8G5CFCjb/oizomA==",
+    "Microsoft.Extensions.DependencyInjection/5.0.2": {
+      "sha512": "xzFW00AZEvOXM1OX+0+AYH5op/Hf3u//e6wszBd/rK72sypD+jx5CtsHxM4BVuFBEs8SajfO4QzSJtrQaHDr4A==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/5.0.1",
+      "path": "microsoft.extensions.dependencyinjection/5.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2931,7 +3096,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -3732,108 +3897,6 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
-      ]
-    },
-    "popper.js/1.16.1": {
-      "sha512": "6GiVZho0vwBnId7pK7NLTjMGq4F0/VE65I08CCeKlarVoUt1w8SGTtJmhNo/0pK38EGUP/xbT4+OkWB8UTMPBw==",
-      "type": "package",
-      "path": "popper.js/1.16.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/Scripts/README.md",
-        "content/Scripts/esm/popper-utils.js",
-        "content/Scripts/esm/popper-utils.js.map",
-        "content/Scripts/esm/popper-utils.min.js",
-        "content/Scripts/esm/popper-utils.min.js.map",
-        "content/Scripts/esm/popper.js",
-        "content/Scripts/esm/popper.js.map",
-        "content/Scripts/esm/popper.min.js",
-        "content/Scripts/esm/popper.min.js.map",
-        "content/Scripts/index.d.ts",
-        "content/Scripts/index.js.flow",
-        "content/Scripts/popper-utils.js",
-        "content/Scripts/popper-utils.js.map",
-        "content/Scripts/popper-utils.min.js",
-        "content/Scripts/popper-utils.min.js.map",
-        "content/Scripts/popper.js",
-        "content/Scripts/popper.js.map",
-        "content/Scripts/popper.min.js",
-        "content/Scripts/popper.min.js.map",
-        "content/Scripts/src/index.js",
-        "content/Scripts/src/methods/defaults.js",
-        "content/Scripts/src/methods/destroy.js",
-        "content/Scripts/src/methods/disableEventListeners.js",
-        "content/Scripts/src/methods/enableEventListeners.js",
-        "content/Scripts/src/methods/placements.js",
-        "content/Scripts/src/methods/update.js",
-        "content/Scripts/src/modifiers/applyStyle.js",
-        "content/Scripts/src/modifiers/arrow.js",
-        "content/Scripts/src/modifiers/computeStyle.js",
-        "content/Scripts/src/modifiers/flip.js",
-        "content/Scripts/src/modifiers/hide.js",
-        "content/Scripts/src/modifiers/index.js",
-        "content/Scripts/src/modifiers/inner.js",
-        "content/Scripts/src/modifiers/keepTogether.js",
-        "content/Scripts/src/modifiers/offset.js",
-        "content/Scripts/src/modifiers/preventOverflow.js",
-        "content/Scripts/src/modifiers/shift.js",
-        "content/Scripts/src/utils/clockwise.js",
-        "content/Scripts/src/utils/computeAutoPlacement.js",
-        "content/Scripts/src/utils/debounce.js",
-        "content/Scripts/src/utils/find.js",
-        "content/Scripts/src/utils/findCommonOffsetParent.js",
-        "content/Scripts/src/utils/findIndex.js",
-        "content/Scripts/src/utils/getBordersSize.js",
-        "content/Scripts/src/utils/getBoundaries.js",
-        "content/Scripts/src/utils/getBoundingClientRect.js",
-        "content/Scripts/src/utils/getClientRect.js",
-        "content/Scripts/src/utils/getFixedPositionOffsetParent.js",
-        "content/Scripts/src/utils/getOffsetParent.js",
-        "content/Scripts/src/utils/getOffsetRect.js",
-        "content/Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js",
-        "content/Scripts/src/utils/getOppositePlacement.js",
-        "content/Scripts/src/utils/getOppositeVariation.js",
-        "content/Scripts/src/utils/getOuterSizes.js",
-        "content/Scripts/src/utils/getParentNode.js",
-        "content/Scripts/src/utils/getPopperOffsets.js",
-        "content/Scripts/src/utils/getReferenceNode.js",
-        "content/Scripts/src/utils/getReferenceOffsets.js",
-        "content/Scripts/src/utils/getRoot.js",
-        "content/Scripts/src/utils/getRoundedOffsets.js",
-        "content/Scripts/src/utils/getScroll.js",
-        "content/Scripts/src/utils/getScrollParent.js",
-        "content/Scripts/src/utils/getStyleComputedProperty.js",
-        "content/Scripts/src/utils/getSupportedPropertyName.js",
-        "content/Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js",
-        "content/Scripts/src/utils/getWindow.js",
-        "content/Scripts/src/utils/getWindowSizes.js",
-        "content/Scripts/src/utils/includeScroll.js",
-        "content/Scripts/src/utils/index.js",
-        "content/Scripts/src/utils/isBrowser.js",
-        "content/Scripts/src/utils/isFixed.js",
-        "content/Scripts/src/utils/isFunction.js",
-        "content/Scripts/src/utils/isIE.js",
-        "content/Scripts/src/utils/isModifierEnabled.js",
-        "content/Scripts/src/utils/isModifierRequired.js",
-        "content/Scripts/src/utils/isNumeric.js",
-        "content/Scripts/src/utils/isOffsetContainer.js",
-        "content/Scripts/src/utils/removeEventListeners.js",
-        "content/Scripts/src/utils/runModifiers.js",
-        "content/Scripts/src/utils/setAttributes.js",
-        "content/Scripts/src/utils/setStyles.js",
-        "content/Scripts/src/utils/setupEventListeners.js",
-        "content/Scripts/umd/popper-utils.js",
-        "content/Scripts/umd/popper-utils.js.map",
-        "content/Scripts/umd/popper-utils.min.js",
-        "content/Scripts/umd/popper-utils.min.js.map",
-        "content/Scripts/umd/popper.js",
-        "content/Scripts/umd/popper.js.flow",
-        "content/Scripts/umd/popper.js.map",
-        "content/Scripts/umd/popper.min.js",
-        "content/Scripts/umd/popper.min.js.map",
-        "popper.js.1.16.1.nupkg.sha512",
-        "popper.js.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -7435,10 +7498,11 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.6",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.6",
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.8",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.8",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "bootstrap >= 4.6.0"
+      "bootstrap >= 5.0.2"
     ]
   },
   "packageFolders": {
@@ -7447,11 +7511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop-Front-end\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\LuisG\\source\\repos\\Smartshop-Front-end\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
       "projectName": "Smartshop-FrontEnd",
-      "projectPath": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop-Front-end\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
+      "projectPath": "C:\\Users\\LuisG\\source\\repos\\Smartshop-Front-end\\Smartshop-FrontEnd\\Smartshop-FrontEnd.csproj",
       "packagesPath": "C:\\Users\\LuisG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop-Front-end\\Smartshop-FrontEnd\\obj\\",
+      "outputPath": "C:\\Users\\LuisG\\source\\repos\\Smartshop-Front-end\\Smartshop-FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LuisG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7480,15 +7544,19 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.8, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[5.0.6, )"
+            "version": "[5.0.8, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[5.0.6, )"
+            "version": "[5.0.8, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
@@ -7496,7 +7564,7 @@
           },
           "bootstrap": {
             "target": "Package",
-            "version": "[4.6.0, )"
+            "version": "[5.0.2, )"
           }
         },
         "imports": [
@@ -7517,7 +7585,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

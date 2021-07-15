@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="FMCA" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop-Front-end\\Smartshop-FrontEnd\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  <parameter name="IIS Web Application Name" description="" value="Smartshop-FrontEnd20210714203202" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\LuisG\\source\\repos\\Smartshop-Front-end\\Smartshop-FrontEnd\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

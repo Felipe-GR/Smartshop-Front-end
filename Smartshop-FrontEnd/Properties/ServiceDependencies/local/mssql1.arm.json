@@ -4,7 +4,7 @@
   "parameters": {
     "resourceGroupName": {
       "type": "string",
-      "defaultValue": "smartshop_group",
+      "defaultValue": "Fast-Market",
       "metadata": {
         "_parameterType": "resourceGroup",
         "description": "Nombre del grupo de recursos del recurso. Se recomienda poner los recursos en el mismo grupo de recursos para mejorar el seguimiento."
@@ -12,7 +12,7 @@
     },
     "resourceGroupLocation": {
       "type": "string",
-      "defaultValue": "southcentralus",
+      "defaultValue": "eastus",
       "metadata": {
         "_parameterType": "location",
         "description": "Ubicación del grupo de recursos. Los grupos de recursos podrían tener una ubicación distinta a la de los recursos."
@@ -51,7 +51,7 @@
             {
               "kind": "v12.0",
               "location": "[parameters('resourceLocation')]",
-              "name": "smartshopsqlserver",
+              "name": "fastmarketsqlserver",
               "type": "Microsoft.Sql/servers",
               "apiVersion": "2017-10-01-preview"
             },
@@ -60,15 +60,15 @@
                 "name": "GP_S_Gen5",
                 "tier": "GeneralPurpose",
                 "family": "Gen5",
-                "capacity": 2
+                "capacity": 1
               },
               "kind": "v12.0,user,vcore,serverless",
               "location": "[parameters('resourceLocation')]",
-              "name": "smartshopsqlserver/smartshop",
+              "name": "fastmarketsqlserver/smartshop",
               "type": "Microsoft.Sql/servers/databases",
               "apiVersion": "2017-10-01-preview",
               "dependsOn": [
-                "smartshopsqlserver"
+                "fastmarketsqlserver"
               ]
             }
           ]

@@ -13,12 +13,12 @@
     "mssql1.subscriptionId": {
       "Name": "mssql1.subscriptionId",
       "Type": "subscription",
-      "Value": "33a6bd30-64ba-4b3d-945d-d257c3c63b97"
+      "Value": "750e0b6a-49bc-417b-8cde-1614996fe5cc"
     },
     "mssql1.resourceGroupName": {
       "Name": "mssql1.resourceGroupName",
       "Type": "resourceGroup",
-      "Value": "smartshop_group"
+      "Value": "Fast-Market"
     }
   }
 }

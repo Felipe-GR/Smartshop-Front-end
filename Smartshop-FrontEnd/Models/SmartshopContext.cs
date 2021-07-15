@@ -21,10 +21,6 @@ namespace Smartshop_FrontEnd.Models
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Shopper> Shoppers { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-        }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
@@ -34,19 +30,18 @@ namespace Smartshop_FrontEnd.Models
                 entity.ToTable("Bill");
 
                 entity.Property(e => e.ProductName)
-                    .IsRequired()
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
                 entity.Property(e => e.ProductPrice)
-                    .IsRequired()
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.Shopper)
                     .WithMany(p => p.Bills)
                     .HasForeignKey(d => d.ShopperId)
-                    .HasConstraintName("FK__Bill__ShopperId__04E4BC85");
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__Bill__ShopperId__6383C8BA");
             });
 
             modelBuilder.Entity<Product>(entity =>
@@ -54,6 +49,7 @@ namespace Smartshop_FrontEnd.Models
                 entity.ToTable("Product");
 
                 entity.Property(e => e.CardId)
+                    .IsRequired()
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
@@ -67,10 +63,8 @@ namespace Smartshop_FrontEnd.Models
                 entity.ToTable("Shopper");
 
                 entity.Property(e => e.Email)
-                    .IsRequired()
                     .HasMaxLength(255)
-                    .IsUnicode(false)
-                    .HasColumnName("email");
+                    .IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);

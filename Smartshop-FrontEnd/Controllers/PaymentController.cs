@@ -247,7 +247,7 @@ namespace Smartshop_FrontEnd.Controllers
             {
                 message.IsBodyHtml = true;
                 message.Bcc.Add(copyAddress);
-                //smtp.Send(message);
+                smtp.Send(message);
             }
 
             SaveBill("Queso", 15000, productUno);
